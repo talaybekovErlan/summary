@@ -1,7 +1,128 @@
-*{
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-body{
-    
+
+body {
+    max-width: 1920px;
+    font-family: Montserrat, sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
 /* HEADER */
+.header {
+    height: 100vh;
+    background-image: url(./images/header/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header MENU */
+.header__menu {
+    padding: 20px 150px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(22, 27, 30, 0.5), rgb(22, 27, 30, 0.5));
+}
+
+.menu__logo {
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+    margin-right: 200px;
+    color: whitesmoke;
+}
+
+.menu__a {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+/* header CONT */
+.header__cont {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.header__cont__text {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.6;
+    line-height: 60px;
+    opacity: 0.3;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.header__cont__text:hover {
+    transition: 0.5s;
+    opacity: 1;
+}
+
+/* MAIN */
+.main {
+    background-color: #FDF5F6;
+}
+
+/* BLOCK-1 */
+.block-1 {
+    padding: 50px 100px;
+}
+
+.block-1__title {
+    text-align: center;
+    font-size: 64px;
+}
+
+.block-1__cont {
+    margin-top: 55px;
+}
+
+/* CELLS */
+.content__est-title {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.content__link {
+    color: blue;
+    text-decoration: blue;
+}
+
+.cell__content {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 150px;
+}
+
+.cell__logo {
+    align-self: center;
+    max-width: 350px;
+}
+
+.cont__cell {
+    display: grid;
+    grid-template-rows: 1fr 20px;
+}
+
+/* SAPAT */
+.cont__cell--sapat {}
+
+/* SP Jain */
