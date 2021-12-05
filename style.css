@@ -90,24 +90,39 @@ a {
     font-size: 64px;
 }
 
-.block-1__cont{
+.block-1__cont {
     margin-top: 55px;
 }
+
 /* CELLS */
-.content__est-title{
+.content__est-title {
     font-size: 15px;
     margin-top: 5px;
 }
-.content__link{
+
+.content__link {
     color: blue;
     text-decoration: blue;
 }
-.cell__content{
+
+.cell__content {
     margin-top: 30px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 150px;
 }
+
+.cell__logo {
+    align-self: center;
+    max-width: 350px;
+}
+
+.cont__cell {
+    display: grid;
+    grid-template-rows: 1fr 20px;
+}
+
 /* SAPAT */
-.cont__cell--sapat{
-    width: 350px;
+.cont__cell--sapat {}
 
-}
-
+/* SP Jain */
