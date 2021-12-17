@@ -19,7 +19,7 @@ a {
 /* HEADER */
 .header {
     height: 100vh;
-    background-image: url(./images/header/header-bg.jpg);
+    background-image: url(../images/header/header-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,15 +80,17 @@ a {
     background-color: #FDF5F6;
 }
 
-/* BLOCK-1 */
-.block-1 {
-    padding: 50px 100px;
-}
-
-.block-1__title {
+.block--titles {
     text-align: center;
     font-size: 64px;
 }
+
+/* BLOCK-1 */
+.block-1 {
+    padding: 100px 100px;
+}
+
+
 
 .block-1__cont {
     margin-top: 55px;
@@ -126,3 +128,8 @@ a {
 .cont__cell--sapat {}
 
 /* SP Jain */
+
+/* BLOCK-2 */
+.block-2__title{
+    margin-top: 100px;
+}
